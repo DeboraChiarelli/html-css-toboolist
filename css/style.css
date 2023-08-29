@@ -39,6 +39,7 @@ header {
     vertical-align: text-bottom;
 }
 
+/* bottoni */
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -73,12 +74,14 @@ main {
     padding: 10px 50px;
 }
 
+/* liste */
 .list-container {
     background-color: white;
     padding: 10px 50px;
     margin-top: 5px;
 }
 
+/* cerchi con spunta */
 .check {
     display: inline-block;
     color: green;
@@ -92,6 +95,7 @@ main {
     border: 1px solid green;
 }
 
+/* cerchi con x */
 .cross {
     display: inline-block;
     color: red;
@@ -108,3 +112,36 @@ main {
 li {
     padding: 7px;
 }
+
+/* rotondini colorati */
+.round {
+    display: inline-block;
+    font-size: 9px;
+    color: white;
+    border-radius: 18px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+    padding: 0.15em 1em;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.q1 {
+    background-color: violet;   
+}
+
+.recru {
+    background-color: lightgreen;
+}
+
+.web {
+    background-color: orange;
+}
+
+.sal {
+    background-color: pink;
+}
+

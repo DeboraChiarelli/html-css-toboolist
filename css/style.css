@@ -34,3 +34,25 @@ header {
     vertical-align: text-bottom;
 }
 
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.add-task {
+    background-color: #47adf1;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.add-section {
+    background-color: white;
+    color: lightgray;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+}

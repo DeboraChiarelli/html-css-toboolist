@@ -1,0 +1,29 @@
+
+/* intestazione */
+
+#main-header {
+    color: white;
+}
+
+
+.banner-img {
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: 35%;
+    padding: 2%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.container-list {
+    max-width: 980px;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

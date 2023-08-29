@@ -8,6 +8,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
 /* intestazione */
 
 img {
@@ -15,7 +20,7 @@ img {
 }
 
 header {
-    background-color: lightblue;
+    background-color: white;
     margin-bottom: 2%;
 }
 
@@ -35,7 +40,7 @@ header {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -56,3 +61,15 @@ header {
     border-radius: 10px;
     text-align: center;
 }
+
+main {
+    background-color: #f6f8f9;
+    padding: 20px;
+}
+
+.button {
+    background-color: white;
+    margin: 10px;
+    padding: 10px 50px;
+}
+

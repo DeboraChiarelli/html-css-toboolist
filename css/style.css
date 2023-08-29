@@ -1,29 +1,36 @@
-
-/* intestazione */
-
-#main-header {
-    color: white;
-}
-
-
-.banner-img {
-    background-image: url(../img/pattern.png);
-    background-repeat: repeat-x;
-    background-size: 35%;
-    padding: 2%;
-}
-
-.logo {
-    width: 200px;
-}
-
-.container-list {
-    max-width: 980px;
-    margin: 0;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* intestazione */
+
+img {
+    max-width: 100px;
+}
+
+header {
+    background-color: lightblue;
+    margin-bottom: 2%;
+}
+
+.main-header {
+    padding: 10px 25px;
+}
+
+
+.logo {
+    max-width: 100px;
+}
+
+.logo-text {
+    display: inline-block;
+    font-size: 45px;
+    vertical-align: text-bottom;
+}
+

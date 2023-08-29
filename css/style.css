@@ -73,3 +73,38 @@ main {
     padding: 10px 50px;
 }
 
+.list-container {
+    background-color: white;
+    padding: 10px 50px;
+    margin-top: 5px;
+}
+
+.check {
+    display: inline-block;
+    color: green;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid green;
+}
+
+.cross {
+    display: inline-block;
+    color: red;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid red;
+}
+
+li {
+    padding: 7px;
+}
